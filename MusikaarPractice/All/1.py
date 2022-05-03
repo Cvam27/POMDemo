@@ -1,33 +1,15 @@
-'''
-1.	Write a program which accepts a number as an argument and prints an ascending triangle pattern containing character ‘*’. For example output of function pattern(5) should be following,
-   *
-  * *
- * * *
+"""1.	Write a program which accepts a number as an argument and prints an ascending triangle pattern containing
+character ‘*’. For example output of function pattern(5) should be following, * * * * * *
 
+"""
 
-'''
+n = 5
+k = 4
 
-# for i in range(5,0,-1):
-#     for j in range(i//2,0,-1 ):
-#         print(" ", end="")
-#     for star in range(i, 6, 1):
-#         print("*", end="")
-#     print("")
-
-for i in range(6,0,-1):
-    for j in range(i//2,0,-1 ):
-        print(".", end="")
-    for star in range(i, 6, 1):
-        print("*", end="")
+for i in range(0, n):
+    for j in range(0, k):
+        print(end=" ")
+    k = k - 1
+    for j in range(0, i + 1):
+        print("* ", end="")
     print("")
-
-# i=5
-# while i !=0:
-#     for j in range(i-1,0,-1 ):
-#         print("_", end="")
-#     for star in range(i, 5, 1):
-#         print("*", end="")
-#     print("")
-#     i=i-1
-
-

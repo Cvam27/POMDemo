@@ -1,21 +1,11 @@
+'''5.	Write a program to generate the Fibonacci sequence starting from 0. The function accepts any number as an argument (length of the output sequence) and generates the list of Fibonacci sequence.
+Note: Two versions of program should be written, 1) using recursion and 2) using generators.
+'''
+
 # Fibonacci with Recursion
 a = 0
 b = 1
 
-
-#
-#
-# def rec(n):
-#     if n <= 1:
-#         return n
-#     else:
-#         return rec(n - 1) + rec(n - 2)
-#
-#
-# for i in range(10):
-#     print(rec(i))
-
-# Fibonacci with Generator
 
 def gen(n):
     global a, b

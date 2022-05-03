@@ -1,8 +1,7 @@
 num = int(input("Enter number to get sum : "))
 
 total = 0
-for i in range(1,num+1):
-    total = i+total
+for i in range(1, num + 1):
+    total = i + total
 
 print(total)
-

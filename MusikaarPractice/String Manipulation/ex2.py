@@ -1,6 +1,6 @@
 import re
 words = "This is test, test belongs to automation. This is new automation"
-new_words = re.findall(r"[\w]+",words)
+new_words = re.findall(r"\w+", words)
 
 
 li2 = []

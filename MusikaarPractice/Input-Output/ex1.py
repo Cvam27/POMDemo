@@ -5,8 +5,8 @@ name = input("Enter name")
 salary = input("Enter salary")
 designation = input("Enter Designation")
 
-di1 = {"id" : id,
-       "Name" : name,
+di1 = {"id": id,
+       "Name": name,
        "salary": salary,
        "designation": designation
        }

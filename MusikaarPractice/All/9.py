@@ -1,23 +1,27 @@
 import random
 
-a = ["[","]"]
-for i in range(10):
-    shuffle = random.choice(a)
-    print(shuffle, end="")
+a = ["[", "]"]
+li1 = []
 
-for j in range(len(shuffle)):
-    if shuffle[j] =="[":
-        if shuffle[j] == "]":
-            pass
-        else:
-            print("Not OK")
+# for i in range(6):
+#     shuffle = random.choice(a)
+#     li1.append(shuffle)
+#     # print(shuffle, end="")
+# print(li1)
+
+
+shuffle = ''.join((random.choice('[]') for x in range(4)))
+print(shuffle)
+
+for i in shuffle:
+    if i == "[":
+        for j in shuffle:
+            if j == "]":
+                pass
+            else:
+                pass
     print("OK")
-# open = 0
-# close = 0
-# for i in shuffle:
-#     if i == "[":
-#         open = open+1
-#     elif i == "]":
-#         close = close +1
-#
-# print(open, close)
+
+# a= ["["]
+# b = ["]"]
+# print(tuple(zip(a,b)))

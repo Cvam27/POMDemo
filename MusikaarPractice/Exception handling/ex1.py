@@ -1,3 +1,7 @@
+class handmadeException(Exception):
+    pass
+
+
 try:
     user_age = int(input("Enter age : "))
     user_gender = input("Enter gender : ")
@@ -5,9 +9,9 @@ try:
     if user_age >= 25 and user_gender == "male" and user_family_member < 5:
         print("Offer applicable")
     else:
-        f = open('a.txt', 'r')
+        raise handmadeException
 
 except ValueError:
     print("Please enter valid info")
-except FileNotFoundError:
-    print("Are bhai bhai bhai")
+except handmadeException as h:
+    print("Condition not matching")
