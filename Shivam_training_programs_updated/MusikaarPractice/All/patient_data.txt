@@ -1,0 +1,6 @@
+Name: Tom, Age: 22, Gender: Male, Disease: Heart, Department: Cardiology, Floor: 0
+Name: 123, Age: asdsad, Gender: 2423, Disease: sdfsdfds, Name: James, Age: 34, Gender: Male, Disease: Joint replacement, Department: Orthopaedic, Floor: 2
+Name: Rock, Age: 22, Gender: Male, Disease: Arthritis, Department: Orthopaedic, Floor: 2
+
+{'Name: Kalis': ['Age: 34', 'Gender: Male', 'Disease: Lasik', 'Dept: Ophthalmology', 'Floor: 3']}
+{'Name: Kalis': ['Age: 36', 'Gender: Male', 'Disease: Heart', 'Dept: Cardiology', 'Floor: 0']}

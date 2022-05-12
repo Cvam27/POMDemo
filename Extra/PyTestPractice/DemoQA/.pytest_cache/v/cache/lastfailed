@@ -1,0 +1,4 @@
+{
+  "demo.py::test_sqr": true,
+  "demo_test.py::test_sqr": true
+}

@@ -1,0 +1,6 @@
+[
+  "TextBox.py::test_box",
+  "TextBox_test.py::test_box",
+  "demo.py::test_sqr",
+  "demo_test.py::test_sqr"
+]
